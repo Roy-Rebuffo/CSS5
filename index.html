@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: 100px repeat(5,1fr);
+        grid-template-rows: repeat(8,50px);
+    }
+    .cabecera{
+        background-color: rgba(128, 128, 128, 0.479);
+    }
+    div{
+        border: 1px solid black;
+    }
+    .recreo{
+        grid-column: 2/7;
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.479);;
+    }
+    .lengua{
+        background-color: yellow;
+    }
+    .lenguaGrid-col{
+        grid-column: 5/7;
+    }
+    .lenguaGrid-col2{
+        grid-column: 3/5;
+    }
+    .sociales{
+        background-color: purple;
+    }
+    .ef{
+        background-color: aquamarine;
+    }
+    .naturales{
+        background-color: fuchsia;
+    }
+    .ingles{
+        background-color: yellowgreen;
+    }
+    .inglesGrid-col{
+        grid-column: 5/7;
+    }
+    .alternativa{
+        background-color: green;
+    }
+    .mates{
+        background-color: red;
+    }
+    .matesGrid-col{
+        grid-column: 2/6;
+    }
+    .plastica{
+        background-color: rgba(255, 0, 0, 0.685);
+    }
+    .c-digital{
+        background-color: burlywood;
+    }
+    .biblio{
+        background-color: rgb(240, 101, 101);
+    }
+    .musica{
+        background-color: rgb(95, 95, 218);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="cabecera">Hora/Día</div>
+        <div class="cabecera">Lunes</div>
+        <div class="cabecera">Martes</div>
+        <div class="cabecera">Miercoles</div>
+        <div class="cabecera">Jueves</div>
+        <div class="cabecera">Viernes</div>
+
+        <div class="hora">9:00</div><div class="lengua">Lengua</div><div class="sociales">Sociales</div><div class="ef">E.F</div><div class="lengua lenguaGrid-col">Lengua</div>
+        <div class="hora">9:45</div><div class="naturales">Naturales</div><div class="lengua lenguaGrid-col2">Lengua</div><div class="sociales">Sociales</div><div class="naturales">Naturales</div>
+        <div class="hora">10:30</div><div class="ef">E.F</div><div class="ingles">Inglés</div><div class="lengua">Lengua</div><div class="alternativa">Alternativa</div><div class="mates">Mates</div>
+        <div class="hora">11:15</div><div class="ingles">Inglés</div><div class="plastica">Plástica</div><div class="naturales">Naturales</div><div class="ingles inglesGrid-col">Inglés</div>
+        <div class="hora">12:00</div><div class="recreo">RECREO</div>
+        <div class="hora">12:30</div><div class="mates matesGrid-col">Mates</div><div class="sociales">Sociales</div>
+        <div class="hora">13:15</div><div class="c-digital">C.Digital</div><div class="biblio">Biblio</div><div class="musica">Música</div><div class="c-digital">C.Digital</div><div class="mates">Mates</div>
+
+    </div>
+</body>
+</html>
